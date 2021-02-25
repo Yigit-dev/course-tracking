@@ -1,0 +1,16 @@
+.Pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .pageItem {
+    margin-right: 10px;
+    background-color: var(--c-button-background);
+    padding: 4px;
+    border-radius: 8px;
+    a {
+      text-align: center;
+      padding: 5px;
+      color: #fff;
+    }
+  }
+}

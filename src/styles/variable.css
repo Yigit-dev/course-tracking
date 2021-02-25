@@ -1,0 +1,19 @@
+
+:root {
+  --c-text: #808191;
+  --c-placeholder-input: #808191;
+  --c-primary-text: #11142D;
+  --c-search-icon: #11142D;
+  --c-right-icon: #11142D;
+  --c-button-background: #2F3CED;
+  --c-slider-background: #2F3CED;
+  --c-nav-icon: #A3A3A5;
+  --c-shadow: 0 4px 16px rgba(0, 0, 0, 0.24);
+  --c-box-background: #fff;
+  --c-box-shadow: 0 8px 16px #E3E6EC;
+  --c-icon-shapeStar: #F2C94C;
+  --c-aside-background: #F5FBFF;
+  --c-notification-count: #FF754C;
+  --c-courseProgress-background: #FFFFFF;
+  --c-learningpoint-chart: #ddedff;
+}

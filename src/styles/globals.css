@@ -1,0 +1,52 @@
+@import './variable.css';
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+*:focus {
+  outline: 0;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #FDFDFD;
+  color: var(--c-primary-text);
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+main{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+footer{
+  text-align: center;
+}
+
+/* ActiveLink */
+nav .active button,nav .active button svg{
+  background-color: var(--c-button-background);
+  color: #fff;
+}
+/* Swiper Pagination Dot */
+.swiper-container .swiper-pagination span {
+  background-color: #fff;
+  border: 2px solid #A0D7E7;
+} 

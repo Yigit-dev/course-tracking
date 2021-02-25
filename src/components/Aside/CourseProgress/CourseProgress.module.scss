@@ -1,0 +1,68 @@
+.CourseProgress {
+  padding-top: 100px;
+  h3 {
+    font-size: 16px;
+    color: var(--c-primary-text);
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+  .Progress {
+    width: 444px;
+    display: flex;
+    align-items: center;
+    padding: 15px 24px;
+    background-color: var(--c-courseProgress-background);
+    border-radius: 16px;
+    margin-bottom: 8px;
+    transition: 300ms all;
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--c-box-shadow);    
+    }
+    
+    .course {
+      min-width: 56px;
+      min-height: 56px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 16px;      
+      .brand {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
+        padding: 7px;
+        border-radius: 50%;
+        svg{
+          min-width: 20px;
+          min-height: 20px;
+        }
+      }
+    }
+  
+    .info {
+      padding-left: 24px;
+      h4 {
+        color: var(--c-primary-text);
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+      p {
+        color: var(--c-text);
+        font-size: 13px;
+      }
+    }
+  
+    .icon {
+      margin-left: auto;
+      svg {
+        width: 24px;
+        height: 24px;
+        color: var(--c-right-icon);
+      }
+    }
+  }
+}

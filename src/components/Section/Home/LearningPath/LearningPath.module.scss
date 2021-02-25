@@ -1,0 +1,63 @@
+.LearningPath {
+  width: 663px;
+  h1{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 16px;
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .courseBox {
+      box-shadow: var(--c-box-shadow);
+      width: 190px;
+      background: var(--c-box-background);
+      border-radius: 24px;
+      font-size: 12px;
+      padding: 28px 20px 14px;
+      margin-right: 24px;
+      margin-bottom: 24px;
+      &Head {
+        h3 {
+          font-size: 16px;
+          font-weight: bold;
+          padding-bottom: 8px;
+        }
+        p {
+          color: var(--c-text);
+          margin-bottom: 37px;
+        }
+        span{
+          color: rgba(#000, 0.5);
+        }
+      }
+  
+      &Footer {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .avatars {
+          
+          img{
+
+            border-radius: 50%;
+          }
+        }
+
+        .icons {
+          display: flex;
+          align-items: center;
+          .shapeStarIcon {
+            svg {
+              color: var(--c-icon-shapeStar);
+            }
+            margin-right: 12px;
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  cursor: pointer;
+  background: transparent;
+  color: var(--c-text);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 600;
+  height: 56px;
+  padding: 16px 24px;
+  width: 212px;
+  border-radius: 0px 12px 12px 0px;
+  transition: transform 300ms ease-in-out, box-shadow 200ms ease-in-out;
+  
+  svg{
+    font-size: 24px;
+    margin-right: 16px;    
+    color: var(--c-nav-icon);
+  }
+  
+  &:hover{
+    transform: translateY(-2px);
+    box-shadow: var(--c-shadow);
+    background-color: var(--c-button-background);
+    color: #fff;
+    svg{
+      color: #fff;
+    }
+  }
+  
+
+
+}

@@ -1,0 +1,22 @@
+.account {
+  padding: 268px 24px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  .avatar {  
+
+    img{
+      border-radius: 50%;
+      background-size: cover;
+
+    }
+  }
+
+  .user {
+    p{
+      color: var(--c-text);
+      overflow-wrap: break-word;
+    }
+  }
+}
