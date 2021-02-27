@@ -1,5 +1,5 @@
 # Basic Course Tracking App
-
+![](frontend.png)
 ## Summary
 
 My first React project and testing nextjs and redux skills. I think there are many mistakes in this project. But I did it to see my mistakes. I think Redux is a over-engineering for this project
