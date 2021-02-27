@@ -19,7 +19,7 @@ There is no importance of responsive design in this project
 
 * API: Udemy API
 
-* Html & Saas
+* Html & Sass
 
   
 
