@@ -21,6 +21,8 @@ There is no importance of responsive design in this project
 
 * Html & Sass
 
+* SVGR
+
   
 
 **Thanks to [Toda ✿](https://dribbble.com/todao) for the design**
